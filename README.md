@@ -17,7 +17,7 @@ search format: field=value
 at present only support these seven searchable fields: name, type, location, address, status, food, zip
 
 example: name=INNOVATION LLC
-example: food=vagan
+example: food=vegan
 example: zip=28855
 
 ------------------------------------------------------------------
@@ -33,18 +33,17 @@ type "quit" to exit the program
 sample input and results"
 ```
 food=vegan
-id       | name                             | type       | location                                         | address          | status     | food                                             | zipcode
+id       | name                             | type       | location                                         | address          | status     | food                                             | zip
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1569145  | Casita Vegana                    | Truck      | JOHN MUIR DR: LAKE MERCED BLVD to SKYLINE BLVD ( | Assessors Block  | APPROVED   | Coffee: Vegan Pastries: Vegan Hot Dogs: Vegan Ta | 64    
+
+input new query: 
 id=1569145
 1569145 | Casita Vegana | Truck | JOHN MUIR DR: LAKE MERCED BLVD to SKYLINE BLVD (200 - 699) | Assessors Block 7283/Lot004 | APPROVED | Coffee: Vegan Pastries: Vegan Hot Dogs: Vegan Tamales: Te: Vegan Shakes | 64
+
+input new query: 
 ```
 
-
-```
-id=1181504
-1181504 | John's Catering #5 | Truck | HARRISON ST: 16TH ST \ TREAT AVE to 17TH ST (2000 - 2099) | 2010 HARRISON ST | EXPIRED | Cold Truck: Soda:Chips:Candy: Cold/Hot Sandwiches: Donuts.  (Pitco Wholesale) | 28855
-```
 
 ## Note
 This simple program does not make use all data fields. Only these 7 fields are used:

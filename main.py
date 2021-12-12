@@ -2,7 +2,7 @@ import re
 import sys
 
 # h - headers of displaying column 
-h = ['id', 'name', 'type', 'location', 'address', 'status', 'food', 'zipcode']
+h = ['id', 'name', 'type', 'location', 'address', 'status', 'food', 'zip']
 
 # p - position of columns that we are interested
 p = [0, 1, 2, 4, 5, 10, 11, 28]
@@ -85,6 +85,8 @@ def locateSingleRecordWithId(id_value):
     print('')
     return
   print (' | '.join(results[0]))
+  print('')
+  print('input new query: ')
 
 def displayQueryResults(k, v):
   print(f'{h[0]:{w[0]}} | {h[1]:{w[1]}} | {h[2]:{w[2]}} | {h[3]:{w[3]}} | {h[4]:{w[4]}} | {h[5]:{w[5]}} | {h[6]:{w[6]}} | {h[7]:{w[7]}}')
@@ -97,7 +99,9 @@ def displayQueryResults(k, v):
       count = count+1
   if count==0 :
     print(f'{k} = {v} does not exist')
-    
+  else:
+   print('')
+   print('input new query: ')
 
 # this is the man entry 
 if __name__ == "__main__":
