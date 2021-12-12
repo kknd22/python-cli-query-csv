@@ -1,7 +1,7 @@
 # python-cli-query-csv
 Python CLI to Query Food Truck Data in CVS File
 
-i## Overview
+## Overview
 The code illustrate a simple Python 3 based CLI program to query a SF food truck data in CSV format.
 
 ## Prerequisite
