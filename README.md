@@ -9,7 +9,7 @@ Python 3
 
 ## Usage
 unpack the 2 files main.py and ft.csv in a directory
-run `python main.py`
+run `python3 main.py`
 should see this prompts:
 ``` 
 Use the following format to query food truck data (case insensetive):
