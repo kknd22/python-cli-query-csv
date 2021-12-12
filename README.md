@@ -8,7 +8,7 @@ The code illustrate a simple Python 3 based CLI program to query a SF food truck
 Python 3 
 
 ## Usage
-unpack the 2 files main.py and ft.csv in a directory
+unpack the 2 files main.py and foodtruck.csv in a directory
 run `python3 main.py`
 should see this prompts:
 ``` 
@@ -56,9 +56,9 @@ This simple program does not make use all data fields. Only these 7 fields are u
 - FoodItems (food)
 - Zip Codes (zip)
 
-All searches are single field only (case in sensitive).  
+All searches are single field only (case insensitive).  
 Search `id=xxxxx` will display a single non trucated data.  
-All other searches will display potentional trucated data for easy display purpose
+All other searches will display potentional trucated data for easy display purpose.
 
 
 
